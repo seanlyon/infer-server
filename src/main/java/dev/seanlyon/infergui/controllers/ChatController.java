@@ -1,15 +1,11 @@
-package dev.seanlyon.infergui;
+package dev.seanlyon.infergui.controllers;
 
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
-
-import java.util.Map;
-import java.util.stream.Collectors;
 
 @RestController
 @CrossOrigin
